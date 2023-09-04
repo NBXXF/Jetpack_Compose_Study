@@ -42,6 +42,12 @@ class MyColumnActivity: ComponentActivity() {
                 }
             }
         }
+
+        //解构常用的用法1 将一个对象拆解成为多个变量
+        val goods = Goods("辣条",1.0, 100)
+        val (name,price,co) = goods
+        println("================>${name}的单价是$price,目前仓库剩余${co}个")
+
     }
 
     @Composable
@@ -63,4 +69,11 @@ class MyColumnActivity: ComponentActivity() {
             }
         }
     }
+
+    class Goods(val name:String,val price:Double,val num : Int){
+        operator fun component1() = name
+        operator fun component2() = price
+        operator fun component3() = num
+    }
+
 }

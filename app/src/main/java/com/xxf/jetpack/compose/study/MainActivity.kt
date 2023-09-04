@@ -58,6 +58,9 @@ class MainActivity : ComponentActivity() {
             Text(text = "自定义列表",modifier=Modifier.padding(10.dp).clickable {
                 this@MainActivity.startActivity(Intent(this@MainActivity,MyColumnActivity::class.java))
             });
+            Text(text = "ConstraintLayout",modifier=Modifier.padding(10.dp).clickable {
+                this@MainActivity.startActivity(Intent(this@MainActivity,ConstraintLayoutActivity::class.java))
+            });
         }
     }
 }
