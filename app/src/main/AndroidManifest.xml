@@ -26,6 +26,7 @@
         <activity android:name=".LazyColumnActivity"/>
         <activity android:name=".LazyColumnActivity2"/>
         <activity android:name=".TextActivity"/>
+        <activity android:name=".MyColumnActivity"/>
     </application>
 
 </manifest>

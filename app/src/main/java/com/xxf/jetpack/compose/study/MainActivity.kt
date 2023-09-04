@@ -55,6 +55,9 @@ class MainActivity : ComponentActivity() {
             Text(text = "Text",modifier=Modifier.padding(10.dp).clickable {
                 this@MainActivity.startActivity(Intent(this@MainActivity,TextActivity::class.java))
             });
+            Text(text = "自定义列表",modifier=Modifier.padding(10.dp).clickable {
+                this@MainActivity.startActivity(Intent(this@MainActivity,MyColumnActivity::class.java))
+            });
         }
     }
 }
