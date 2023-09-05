@@ -28,6 +28,7 @@
         <activity android:name=".TextActivity"/>
         <activity android:name=".MyColumnActivity"/>
         <activity android:name=".ConstraintLayoutActivity"/>
+        <activity android:name=".StateActivity"/>
     </application>
 
 </manifest>

@@ -61,6 +61,9 @@ class MainActivity : ComponentActivity() {
             Text(text = "ConstraintLayout",modifier=Modifier.padding(10.dp).clickable {
                 this@MainActivity.startActivity(Intent(this@MainActivity,ConstraintLayoutActivity::class.java))
             });
+            Text(text = "状态管理",modifier=Modifier.padding(10.dp).clickable {
+                this@MainActivity.startActivity(Intent(this@MainActivity,StateActivity::class.java))
+            });
         }
     }
 }
