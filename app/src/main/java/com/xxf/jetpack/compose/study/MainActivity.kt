@@ -64,6 +64,9 @@ class MainActivity : ComponentActivity() {
             Text(text = "状态管理",modifier=Modifier.padding(10.dp).clickable {
                 this@MainActivity.startActivity(Intent(this@MainActivity,StateActivity::class.java))
             });
+            Text(text = "Keyboard",modifier=Modifier.padding(10.dp).clickable {
+                this@MainActivity.startActivity(Intent(this@MainActivity,KeyBoardActivity::class.java))
+            });
         }
     }
 }
