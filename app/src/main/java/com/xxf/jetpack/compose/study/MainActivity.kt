@@ -67,6 +67,9 @@ class MainActivity : ComponentActivity() {
             Text(text = "Keyboard",modifier=Modifier.padding(10.dp).clickable {
                 this@MainActivity.startActivity(Intent(this@MainActivity,KeyBoardActivity::class.java))
             });
+            Text(text = "CompositionLocal",modifier=Modifier.padding(10.dp).clickable {
+                this@MainActivity.startActivity(Intent(this@MainActivity,CompositionLocalActity::class.java))
+            });
         }
     }
 }

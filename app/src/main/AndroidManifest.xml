@@ -30,6 +30,7 @@
         <activity android:name=".ConstraintLayoutActivity"/>
         <activity android:name=".StateActivity"/>
         <activity android:name=".KeyBoardActivity"/>
+        <activity android:name=".CompositionLocalActity"/>
     </application>
 
 </manifest>
